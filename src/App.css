@@ -1,0 +1,91 @@
+@import "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap";
+
+.App {
+  font-family: 'East Sea Dokdo', cursive;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #8eaca8, #9c9a8f, #775b50);
+  background-size: 700% 700%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header {
+  color: rgb(0, 14, 12);
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.ans {
+  font-size: 2.5rem;
+  color: rgb(15, 241, 91);
+  background-color: white;
+  height: 1em;
+  width: 15em;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 0.3em;
+  max-width: 95%;
+  text-align: center;
+}
+
+.input {
+  width: 45em;
+  margin-top: 2em;
+  height: 3em;
+  width: 25em;
+  border-radius: 0.6em;
+  border: none;
+  max-width: 80%;
+  padding: 0 1em;
+}
+
+.text {
+  color: rgb(58, 22, 13);
+  font-size: 3.4rem;
+}
+
+.container {
+  width: 42em;
+  margin: 0 auto;
+  max-width: 42%;
+}
+
+.items {
+  margin: 0 1em;
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.items:active {
+  background-color: #242424;
+}
+
+.items:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .ans {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 408px) {
+  .ans {
+    font-size: 1rem;
+  }
+}
