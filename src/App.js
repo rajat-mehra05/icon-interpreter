@@ -30,7 +30,7 @@ export default function App() {
     <div className="App">
       <h1 className="header">Icon Interpreter</h1>
       <h2 className="ans">{emoji}</h2>      
-      <h3 className="text">Select any place from below options</h3>
+      <h3 className="text">Select any icon from below options</h3>
       <div className="container">
         {placeArray.map((key) => (
           <span className="items" onClick={() => emojiHandler(key)}>
